@@ -1,0 +1,121 @@
+CREATE TABLE purchases (
+  id SERIAL,
+  name varchar(255) NOT NULL,
+  purchase_date DATE default NULL,
+  item varchar(50) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+SET datestyle TO SQL, DMY;
+
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Carol K. Durham','12/04/2000','41');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Xander I. Harrell','28/08/2000','71');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Stone X. Owens','26/02/2000','17');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Stewart X. Davenport','28/10/1999','52');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Gabriel B. Blackwell','01/06/2000','2');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Sylvia W. Lott','26/11/1999','4');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Sylvia W. Lott','26/09/1999','40');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Jelani N. Warner','12/09/2000','48');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Tasha L. Burch','12/10/2000','7');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Jelani N. Warner','02/03/1999','44');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Hamish M. Schmidt','28/03/2000','35');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Colette B. Rowe','03/10/1999','9');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Jorden G. Washington','02/12/1999','37');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Cassady X. Chaney','08/08/2000','51');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Danielle N. Vinson','13/10/1999','13');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Jenette D. Hamilton','22/05/2000','95');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Flavia K. Nichols','24/10/2000','22');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Randall H. Skinner','10/11/2000','17');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Mikayla N. Puckett','27/10/1999','89');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kerry Z. Lynn','05/11/1999','4');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Joshua K. Decker','08/02/2000','67');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Hedley E. Fitzpatrick','25/10/2000','64');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Cora T. Orr','12/08/2000','70');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Arsenio Q. Turner','17/09/2000','40');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Larissa P. Benson','30/09/2000','36');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Trevor N. Sykes','02/01/2000','59');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Mallory M. Atkins','11/12/2000','18');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Lane F. Howell','27/07/2000','7');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Molly T. Mercado','03/09/2000','8');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Tobias S. Trujillo','16/12/2000','14');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Liberty V. Hyde','04/11/2000','67');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Haley B. Jefferson','09/04/2000','95');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kelly I. Nicholson','15/03/2000','45');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kristen A. Schwartz','11/10/2000','20');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Shannon J. Knowles','01/09/2000','43');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Winifred M. Mccarty','12/09/2000','65');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Ciara S. Davis','01/10/1999','12');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Bryar G. Hines','18/10/1999','74');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Talon K. Blackburn','25/06/2000','27');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kiara F. Huff','15/11/1999','9');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Brennan N. Langley','30/10/2000','68');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Gemma W. Marsh','21/01/2000','20');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Astra P. Dickson','16/03/2000','4');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Ruth R. Brooks','08/01/2000','3');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Fritz D. Harmon','17/10/2000','47');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Ronan F. Haley','16/10/1999','71');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Ivy Z. Mcguire','15/01/2000','100');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Anastasia B. Christian','25/12/1999','18');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Natalie W. Mclaughlin','17/01/2000','4');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Anastasia B. Christian','25/01/2000','18');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Casey G. Petty','10/04/2000','25');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Wynter H. Simpson','18/02/2000','79');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Whitney U. Waters','16/04/2000','29');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Gail T. Walters','03/10/1999','15');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Felicia W. Watts','08/01/2000','77');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kiayada T. Sanchez','12/10/2000','60');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Yvette U. Shepherd','08/12/2000','68');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Isadora S. Meyers','28/12/1999','62');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Geoffrey W. Washington','31/05/2000','32');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Regan C. Byers','09/05/2000','75');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Audra A. Tran','27/10/1999','42');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Shad O. Rodgers','19/12/1999','17');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Shad O. Rodgers','05/10/2000','17');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Audra A. Tran','06/10/2000','19');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Cooper W. Ortiz','07/10/2000','43');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Orson Y. Hensley','22/02/2000','29');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Orson Y. Hensley','22/03/2000','29');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Cooper W. Ortiz','19/06/2000','21');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Keiko W. Mosley','13/11/1999','98');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Doris P. Mcguire','09/02/2000','63');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kerry Y. Hoover','06/04/2000','34');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kerry Y. Hoover','06/05/2000','65');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Lael C. Baker','13/11/2000','65');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Vernon B. Burch','24/11/2000','78');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Tatyana Y. Melton','21/05/2000','64');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Alexander X. Stark','27/10/2000','25');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kyle L. Ross','23/01/2000','10');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Ivana B. Gibbs','30/12/2000','73');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Veda I. Mueller','03/05/2000','48');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Baxter V. Farley','08/11/1999','67');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Evangeline H. Taylor','15/04/2000','25');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Adena A. Graves','20/08/2000','92');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Yael O. White','19/01/2000','1');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Sarah G. Hutchinson','12/07/2000','40');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Derek M. Park','25/11/2000','71');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Alma L. Lynn','20/11/2000','97');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Clark L. Rivera','06/08/2000','30');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Andrew Y. Dudley','29/03/2000','37');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Calista P. Durham','01/04/2000','16');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Macaulay B. Miles','09/12/2000','60');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Leo P. Mendez','30/10/2000','43');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Autumn V. Sherman','25/11/1999','35');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kessie B. Flynn','13/05/2000','58');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Shannon O. Johnston','29/02/2000','6');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Debra J. Workman','30/04/2000','31');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Darrel R. Fowler','05/10/2000','40');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Kylynn O. English','14/11/2000','19');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Tasha U. Merrill','06/01/2000','49');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Daniel X. Guerra','27/11/1999','32');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Clio R. Perry','16/11/1999','76');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Aimee I. Patrick','08/10/2000','87');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Chase X. Strickland','19/05/2000','45');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Steel T. Elliott','24/07/2000','12');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Lael N. Herman','01/10/2000','14');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Montana I. Becker','21/12/1999','58');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Mohammad B. Bowman','12/12/1999','92');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Jaime G. Wilder','14/12/1999','67');
+INSERT INTO purchases (name,purchase_date,item) VALUES ('Naida K. Taylor','02/01/2000','71');
+
+
+
